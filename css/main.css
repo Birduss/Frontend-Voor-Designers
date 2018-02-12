@@ -1,0 +1,364 @@
+body {
+    background-color: #5E7FF7;
+    color: #343A40;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 3.8em;
+}
+
+header img {
+    width: 2.2em;
+    height: 2.2em;
+    margin: 0.8em 0em 0em 1.2em;
+}
+
+header ul.navlist {
+    display: flex;
+    margin: 1.2em 0em 0em 0em;
+    background-color: white;
+}
+
+header li.linkjes {
+    list-style-type: none;
+}
+
+header a.link {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    background-color: white;
+    padding-right: 1.3em;
+    color: #5E7FF7;
+}
+
+header a:visited {
+    color: #5E7FF7;
+}
+
+header a:hover {
+    color: #343A40;
+}
+
+header a:active {
+    color: #5E7FF7;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: #92A9FC;
+    display: flex;
+    height: 4.2em;
+}
+
+form input[type="search"] {
+    background-color: #BECFFC;
+    width: 100%;
+    height: 3em;
+    border: none;
+    padding-left: 1em;
+    margin: 1em 0em 0em 1.6em;
+    border-radius: 0.4em 0em 0em 0.4em;
+    border: 0.2em solid #343A40;
+    outline: none;
+}
+
+form input[type="submit"] {
+    outline: none;
+    width: 4em;
+    margin: 1em 1.6em 2.1em -0.02em;
+    border: none;
+    border-radius: 0em 0.4em 0.4em 0em;
+    border: 0.2em solid #343A40;
+    border-left: none;
+    background: url(../img/searchglas.svg) no-repeat;
+    background-size: 1.9em;
+    background-color: #BECFFC;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+article {
+    margin: 0em 1.35em 0em 1.35em;
+    height: 10em;
+}
+
+article .bloktitel {
+    background-color: #343A40;
+    height: 3em;
+    display: flex;
+    color: white;
+}
+
+.bloktitel h2 {
+    margin: 0;
+    padding: 0.5em 0em 0.5em 0.7em;
+}
+
+.bloktitel h3 {
+    margin: 2em 0em 0em 1em;
+    font-size: 0.6em;
+}
+
+
+
+
+
+
+/* carousel */
+
+::-webkit-scrollbar {
+    background-color: #f4f4f4;
+    width: 0.4em;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: url(../img/scrollbar.svg) no-repeat;
+    display: none;
+}
+
+::-webkit-scrollbar:horizontal {
+    background-color: #f4f4f4;
+    border-bottom: #e6e6e9;
+    height: 1.2em;
+    display: none;
+
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background-position: 5em 6em;
+    background: #e6e6e9;
+    border-bottom: 3px solid #e6e6e9;
+    display: none;
+
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #e6e6e9;
+    display: none;
+}
+
+
+.carouselafsnee {
+    overflow: hidden;
+    height: 9.5em;
+}
+
+
+.content {
+    width: 62.5em;
+    list-style-type: none;
+}
+
+
+.card {
+    width: 20em;
+    height: 10em;
+    float: left;
+    margin: -1em 0em 0em -2.5em;
+    cursor: pointer;
+    transform: scale(1);
+    visibility: visible;
+    background-color: #fff;
+}
+
+
+
+.carouselafsnee {
+    overflow: auto;
+    zoom: 1;
+}
+
+
+/* carousel */
+
+/* de knop */
+
+.meerinfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em 2.5em 1.2em 2.5em;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: 0em 0em 0.4em 0.4em;
+    border: none;
+    color: #343A40;
+    margin-bottom: -1.5em;
+    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+}
+
+.meerinfo2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em 2.5em 1.2em 2.5em;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: 0em 0em 0.4em 0.4em;
+    border: none;
+    color: #343A40;
+    margin-bottom: -1.5em;
+    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+}
+
+/* de knop */
+
+/*icons*/
+
+.pijltje {
+    width: 1em;
+    margin: 0.3em 0em 0em 1em;
+}
+
+/*icons*/
+
+/* word vervangen door deinfo */
+
+.info {
+    display: flex;
+    color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.4s ease-in-out;
+    height: 0em;
+    border-radius: 0em 0em 0.4em 0.4em;
+    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+}
+
+.info2 {
+    display: flex;
+    color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.4s ease-in-out;
+    height: 0em;
+    border-radius: 0em 0em 0.4em 0.4em;
+    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+}
+
+/* word vervangen door deinfo */
+
+/* is de vervanger voor info */
+
+.deinfo {
+    background-color: white;
+    display: block;
+    color: #343A40;
+    height: 9em;
+    display: flex;
+}
+
+
+.deinfo2 {
+    background-color: white;
+    display: block;
+    color: #343A40;
+    height: 8.5em;
+    display:flex;
+}
+
+
+
+
+/* is de vervanger voor info */
+
+/* de informatie van de dropdown */
+
+.info ul {
+    padding-top: 1em;
+    list-style-type: none;
+    margin: 0.5em 0em 0em -1.45em;
+    line-height: 1.35em;
+    margin-right: 1.5em;
+    color: #5E7FF7;
+
+}
+
+.info2 ul {
+    padding-top: 1em;
+    list-style-type: none;
+    margin: 0.5em 0em 0em -1.45em;
+    line-height: 1.35em;
+    margin-right: 1.5em;
+    color: #5E7FF7;
+}
+
+p {
+    text-indent: 10px;
+}
+
+
+/* de informatie van de dropdown */
+
+/* tussenruitme */
+
+.ruimte {
+    height: 0em;
+    transition: all 0.4s ease-in-out;
+}
+
+.vervangruimte {
+    height: 7.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+/* tussenruimte */
+
+
+
+
+.pijltje {
+    transform: ;
+    transition: all 0.4s ease-in-out;
+}
+
+.pijltje2 {
+    transform: ;
+    transition: all 0.4s ease-in-out;
+}
+
+.omgedraaid {
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.omgedraaid2 {
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+/* weg met standaard styling searchbar */
+input {
+    -webkit-appearance: none;
+}
+
+/* weg met standaard styling searchbar */
