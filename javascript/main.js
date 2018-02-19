@@ -34,10 +34,19 @@ window.onscroll = function() {myFunction()};
 
 function myFunction() {
     if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        document.getElementById("popupheader").className = "test";
+        document.getElementById("onzichtbaar").className = "verschijn";
     } else {
-        document.getElementById("popupheader").className = "";
+        document.getElementById("onzichtbaar").className = "";
     }
 }
 
 // scroll code //
+
+
+
+
+
+
+
+
+
