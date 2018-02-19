@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 3.8em;
-    border-bottom: 0.2em solid #25DEC8;
+    border-bottom: 0.15em solid #25DEC8;
 }
 
 
@@ -59,7 +59,7 @@ header img.burger {
     background-repeat: no-repeat;
     background-color: white;
     background-size: 3em, 1.8em;
-    background-position: 0.7em 0.6em, 22em 1.2em;
+    background-position: 0.7em 0.6em, 17.5em 1.2em;
     transition: all 0.7s ease-in-out;
 }
 
@@ -224,7 +224,7 @@ article div.bloktitel {
     background-color: ;
     display: block;
     padding-bottom: 1.5em;
-    border-bottom: 0.05em solid #E5E5E5;
+    border-bottom: 0.07em solid #E5E5E5;
 }
 
 
@@ -248,7 +248,7 @@ article div.bloktitel {
     border: none;
     color: #343A40;
     margin-bottom: -1.5em;
-    box-shadow: 0 0.06rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 .meerinfo2 {
@@ -267,7 +267,7 @@ article div.bloktitel {
     color: #343A40;
     margin-bottom: -1.5em;
     margin-top: -0.2em;
-    box-shadow: 0 0.06rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 /* de knop */
@@ -284,7 +284,7 @@ article div.bloktitel {
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.4s ease-in-out;
     height: 0em;
-    box-shadow: 0 0.06rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 .info2 {
@@ -293,7 +293,7 @@ article div.bloktitel {
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.4s ease-in-out;
     height: 0em;
-    box-shadow: 0 0.06rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 /* word vervangen door deinfo */
