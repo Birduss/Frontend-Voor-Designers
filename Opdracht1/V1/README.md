@@ -20,5 +20,5 @@
 
 
 
-### Linkje
+### Linkje:
 https://birduss.github.io/Frontend-Voor-Designers/Opdracht1/V1/
