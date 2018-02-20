@@ -1,6 +1,6 @@
 body {
-    background-color: #5E7FF7;
-    color: #343A40;
+    background-color: #E5E5E5;
+    color: #E5E5E5;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +8,61 @@ body {
     font-weight: bolder;
 }
 
+
+
+/* begin header */
+
 header {
     background-color: white;
     display: flex;
     justify-content: space-between;
     height: 3.8em;
+    border-bottom: 0.15em solid #25DEC8;
 }
 
+
+
+
+
 header img {
-    width: 2.2em;
-    height: 2.2em;
-    margin: 0.8em 0em 0em 1.2em;
+    width: 2.8em;
+    margin: 0.15em 0em 0em 0.8em;
 }
+
+header img.burger {
+
+    margin: 0.07em 0.8em 0em 0em;
+    width: 1.7em;
+
+}
+
+
+#onzichtbaar {
+    display: ;
+    border-bottom: ;
+    background: ;
+    background-size: ;
+    background-position: ;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.verschijn {
+    display: block;
+    border-bottom: 0.15em solid #25DEC8;
+    height: 3.8em;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: url(../img/studenthuislogo.svg), url(../img/burgermenu.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 3em, 1.8em;
+    background-position: 0.7em 0.6em, 17.5em 1.2em;
+    transition: all 0.7s ease-in-out;
+}
+
+
 
 header ul.navlist {
     display: flex;
@@ -38,84 +81,46 @@ header a.link {
     font-size: 1em;
     background-color: white;
     padding-right: 1.3em;
-    color: #5E7FF7;
-}
-
-header a:visited {
-    color: #5E7FF7;
-}
-
-header a:hover {
     color: #343A40;
 }
 
-header a:active {
-    color: #5E7FF7;
+header a:visited {
+    color: #343A40;
 }
+
+header a:hover {
+    color: #25DEC8;
+}
+
+header a:active {
+    color: #25DEC8;
+}
+
+
+
+/* einde header */
+
+/* belangrijkste content */
 
 section {
     display: flex;
     flex-direction: column;
 }
 
-form {
-    background-color: #92A9FC;
-    display: flex;
-    height: 4.2em;
-}
 
-form input[type="search"] {
-    background-color: #BECFFC;
-    width: 100%;
-    height: 3em;
-    border: none;
-    padding-left: 1em;
-    margin: 1em 0em 0em 1.6em;
-    border-radius: 0.4em 0em 0em 0.4em;
-    border: 0.2em solid #343A40;
-    outline: none;
-}
-
-form input[type="submit"] {
-    outline: none;
-    width: 4em;
-    margin: 1em 1.6em 2.1em -0.02em;
-    border: none;
-    border-radius: 0em 0.4em 0.4em 0em;
-    border: 0.2em solid #343A40;
-    border-left: none;
-    background: url(../img/searchglas.svg) no-repeat;
-    background-size: 1.9em;
-    background-color: #BECFFC;
-    background-position: center;
-}
 
 h1 {
     text-align: center;
-    color: white;
+    color: #343A40;
+    font-size: 1em;
 }
 
 article {
-    margin: 0em 1.35em 0em 1.35em;
+    margin: 0em 0.35em 11.5em 0.35em;
     height: 10em;
+    color: #343A40;
 }
 
-article .bloktitel {
-    background-color: #343A40;
-    height: 3em;
-    display: flex;
-    color: white;
-}
-
-.bloktitel h2 {
-    margin: 0;
-    padding: 0.5em 0em 0.5em 0.7em;
-}
-
-.bloktitel h3 {
-    margin: 2em 0em 0em 1em;
-    font-size: 0.6em;
-}
 
 
 
@@ -158,20 +163,21 @@ article .bloktitel {
 
 
 .carouselafsnee {
-    overflow: hidden;
+
     height: 9.5em;
+
 }
 
 
 .content {
-    width: 62.5em;
+    width: 58.2em;
     list-style-type: none;
 }
 
 
 .card {
-    width: 23.3em;
-    height: 10em;
+    width: 21.9em;
+    height: 8em;
     float: left;
     margin: -1em 0em 0em -2.5em;
     cursor: pointer;
@@ -183,12 +189,48 @@ article .bloktitel {
 
 
 .carouselafsnee {
-    overflow: auto;
-    zoom: 1;
+/*    overflow: auto;*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+
 }
 
 
 /* carousel */
+
+/* de tekst */
+
+article div.bloktitel {
+    background-color: white;
+    height: 8em;
+    display: flex;
+    color: #343A40;
+    flex-direction: column;
+}
+
+.bloktitel h2 {
+    margin: 0;
+    padding: 0.5em 0em 0.2em 0.65em;
+}
+
+.bloktitel h3 {
+    margin: 0em 0em 0em 0.8em;
+    font-size: 1.2em;
+}
+
+.bloktitel h4 {
+    font-size: 1em;
+    color: #25DEC8;
+    margin: 0.5em 0.8em 0em 0.8em;
+    font-size: 1.2em;
+    background-color: ;
+    display: block;
+    padding-bottom: 1.5em;
+    border-bottom: 0.07em solid #E5E5E5;
+}
+
+
+/* de tekst */
 
 /* de knop */
 
@@ -204,11 +246,11 @@ article .bloktitel {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     font-size: 1em;
-    border-radius: 0em 0em 0.4em 0.4em;
+    margin-top: -0.2em;
     border: none;
     color: #343A40;
     margin-bottom: -1.5em;
-    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 .meerinfo2 {
@@ -223,21 +265,35 @@ article .bloktitel {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     font-size: 1em;
-    border-radius: 0em 0em 0.4em 0.4em;
     border: none;
     color: #343A40;
     margin-bottom: -1.5em;
-    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+    margin-top: -0.2em;
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
+}
+
+.meerinfo3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em 2.5em 1.2em 2.5em;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    border: none;
+    color: #343A40;
+    margin-bottom: -1.5em;
+    margin-top: -0.2em;
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 /* de knop */
 
 /*icons*/
-
-.pijltje {
-    width: 1em;
-    margin: 0.3em 0em 0em 1em;
-}
 
 /*icons*/
 
@@ -249,8 +305,7 @@ article .bloktitel {
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.4s ease-in-out;
     height: 0em;
-    border-radius: 0em 0em 0.4em 0.4em;
-    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 .info2 {
@@ -259,8 +314,16 @@ article .bloktitel {
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.4s ease-in-out;
     height: 0em;
-    border-radius: 0em 0em 0.4em 0.4em;
-    box-shadow: 0 0.2rem 0 0 rgba(7, 7, 33, .25);
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
+}
+
+.info3 {
+    display: flex;
+    color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.4s ease-in-out;
+    height: 0em;
+    box-shadow: 0 0.1rem 0 0 rgba(7, 7, 33, .25);
 }
 
 /* word vervangen door deinfo */
@@ -279,11 +342,18 @@ article .bloktitel {
 .deinfo2 {
     background-color: white;
     display: block;
-    color: #343A40;
     height: 8.5em;
-    display:flex;
+    display: flex;
+    color: #343A40;
 }
 
+.deinfo3 {
+    background-color: white;
+    display: block;
+    height: 8.5em;
+    display: flex;
+    color: #343A40;
+}
 
 
 
@@ -297,9 +367,24 @@ article .bloktitel {
     margin: 0.5em 0em 0em -1.45em;
     line-height: 1.35em;
     margin-right: 1.5em;
-    color: #5E7FF7;
-
+    color: ;
 }
+
+.info ul.kolom {
+    font-weight: 100;
+    color: ;
+}
+
+.info2 ul.kolom {
+    font-weight: 100;
+    color: ;
+}
+
+.info3 ul.kolom {
+    font-weight: 100;
+    color: ;
+}
+
 
 .info2 ul {
     padding-top: 1em;
@@ -307,7 +392,16 @@ article .bloktitel {
     margin: 0.5em 0em 0em -1.45em;
     line-height: 1.35em;
     margin-right: 1.5em;
-    color: #5E7FF7;
+    color: ;
+}
+
+.info3 ul {
+    padding-top: 1em;
+    list-style-type: none;
+    margin: 0.5em 0em 0em -1.45em;
+    line-height: 1.35em;
+    margin-right: 1.5em;
+    color: ;
 }
 
 p {
@@ -329,17 +423,35 @@ p {
     transition: all 0.4s ease-in-out;
 }
 
+.vervangruimte2 {
+    height: 7.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.vervangruimte3 {
+    height: 7.5em;
+    transition: all 0.4s ease-in-out;
+}
+
 /* tussenruimte */
 
-
-
-
 .pijltje {
+    width: 1em;
+    margin: 0.3em 0em 0em 1em;
     transform: ;
     transition: all 0.4s ease-in-out;
 }
 
 .pijltje2 {
+    width: 1em;
+    margin: 0.3em 0em 0em 1em;
+    transform: ;
+    transition: all 0.4s ease-in-out;
+}
+
+.pijltje3 {
+    width: 1em;
+    margin: 0.3em 0em 0em 1em;
     transform: ;
     transition: all 0.4s ease-in-out;
 }
@@ -352,11 +464,19 @@ p {
 .omgedraaid2 {
     transform: rotate(180deg);
     transition: all 0.4s ease-in-out;
+    width: 1em;
 }
 
+.omgedraaid3 {
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+    width: 1em;
+}
 
+/* einde belangrijkste content */
 
 /* weg met standaard styling searchbar */
+
 input {
     -webkit-appearance: none;
 }
