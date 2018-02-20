@@ -20,3 +20,5 @@
 
 4. De prijs toegevoegd zodat de gebruikers nieuws gierig worden naar de andere info. 
 
+###Linkje:
+https://birduss.github.io/Frontend-Voor-Designers/Opdracht1/V3/

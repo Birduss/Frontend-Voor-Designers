@@ -30,3 +30,6 @@
 3. Bij de slider kon het duidelijker worden aangegeven worden dat er verder kon worden geswiped. Het werd nu alleen aangegeven doormiddel van een deel van de volgende afbeelding te laten zien, maar dit werkt dus niet wanneer de afbeelding te veel lijkt op de eerdere. 
 
 4. Zet de prijs en grootte van het huis alvast bij het huis zodat mensen juist weer eerder nieuwsgierig worden naar de meer info knop.
+
+### Linkje:
+https://birduss.github.io/Frontend-Voor-Designers/Opdracht1/V2/
