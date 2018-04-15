@@ -1,0 +1,44 @@
+body {
+    background-color: #E5E5E5;
+    color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+header {}
+
+
+main {}
+
+
+
+section {}
+
+
+
+article {}
+
+
+
+img {}
+
+
+
+
+
+
+
+
+
+
+
+/* weg met standaard styling searchbar */
+
+input {
+    -webkit-appearance: none;
+}
+
+/* weg met standaard styling searchbar */
